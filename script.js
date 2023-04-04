@@ -3,9 +3,7 @@ let promise = new Promise((resolve,reject) => {
 	setTimeout(function(){
 		resolve("Hello, world!");
 	},1000);
-});
-function value(promise){
-	let ele = document.getElementById('output');
-	ele.value = promise;
-}
-value(promise);
+}); 
+promise.then((data) => {
+document.querySelector('div').value=data;
+					   });
