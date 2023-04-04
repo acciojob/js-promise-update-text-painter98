@@ -5,6 +5,5 @@ let promise = new Promise((resolve,reject) => {
 	},1000);
 }); 
 promise.then((data) => {
-let ele = document.getElementById('output').innerText;
-	ele.innerText = data;
+	 document.getElementById('output').innerText = data;
 					   });
