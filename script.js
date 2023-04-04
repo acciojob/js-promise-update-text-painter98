@@ -8,3 +8,4 @@ function value(promise){
 	let ele = document.getElementById('output');
 	ele.value = promise;
 }
+value(promise);
