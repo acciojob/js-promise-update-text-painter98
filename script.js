@@ -7,4 +7,4 @@ let promise = new Promise((resolve,reject) => {
 		resolve("Hello, world!");
 	},1000);
 });
-console.log(output());
+document.getElementById.innerText=output();
