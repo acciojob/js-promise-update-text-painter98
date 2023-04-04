@@ -5,5 +5,5 @@ let promise = new Promise((resolve,reject) => {
 	},1000);
 }); 
 promise.then((data) => {
-document.querySelector('div').value=data;
+document.querySelector('div').innerText = data;
 					   });
