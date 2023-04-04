@@ -7,6 +7,6 @@ let promise = new Promise((resolve,reject) => {
 		resolve("Hello, world!");
 	},1000);
 });
-output().then((data) = >{
+output().then((data) =>{
 	document.getElementById.innerText = data;
 });
